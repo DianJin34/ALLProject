@@ -1,0 +1,18 @@
+Test suite test: RUNNING...
+All tests
+  Typeclasses
+    exSortInt = sort dOrdInt exIntList:                          OK
+    exSortIntPair = sort (dOrdXY dOrdInt dOrdInt) exIntPairList: OK
+    exSortIntDesc = sort dOrdIntDesc exIntList:                  OK
+    dOrdXY compares correctly:                                   OK
+      +++ OK, passed 250 tests.
+    dOrdYX compares correctly:                                   OK
+      +++ OK, passed 250 tests.
+    sortIntDesc is correct:                                      OK
+      +++ OK, passed 250 tests.
+    isSorted is correct:                                         OK
+      +++ OK, passed 250 tests.
+
+All 7 tests passed (0.02s)
+Test suite test: PASS
+Test suite logged to: C:\CS 538\pa5\dist-newstyle\build\x86_64-windows\ghc-9.8.1\typeclasses-0.1.0.0\t\test\test\typeclasses-0.1.0.0-test.log

@@ -1,0 +1,52 @@
+Fri May 12 03:55:19 PM CDT 2023
+gcc psort.c -Wall -Werror -pthread -O -o psort
+./psort test.img test_out.img 16
+0.002827 s
+10+0 records in
+10+0 records out
+10000000 bytes (10 MB, 9.5 MiB) copied, 0.023597 s, 424 MB/s
+100+0 records in
+100+0 records out
+100000000 bytes (100 MB, 95 MiB) copied, 0.214202 s, 467 MB/s
+1000+0 records in
+1000+0 records out
+1000000000 bytes (1.0 GB, 954 MiB) copied, 2.11862 s, 472 MB/s
+4000+0 records in
+4000+0 records out
+4000000000 bytes (4.0 GB, 3.7 GiB) copied, 8.45242 s, 473 MB/s
+Test 1
+0.029868 s
+0.026007 s
+0.020766 s
+0.026130 s
+0.034496 s
+0.027041 s
+0.038761 s
+0.025913 s
+Test 2
+0.288721 s
+0.256842 s
+0.256338 s
+0.265590 s
+0.273537 s
+0.302081 s
+0.301770 s
+0.299979 s
+Test 3
+3.373991 s
+3.289864 s
+3.289630 s
+3.345671 s
+3.391956 s
+3.572545 s
+3.675474 s
+3.759186 s
+Test 4
+16.299959 s
+15.219492 s
+15.439397 s
+15.528435 s
+16.024312 s
+16.480744 s
+16.958524 s
+17.072701 s

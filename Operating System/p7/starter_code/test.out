@@ -1,0 +1,33 @@
+============ test 0 ============
+Files identified: ['architecture_big_ben.jpg', 'file-14-details.txt', 'file-14.jpg', 'file-16-details.txt', 'file-16.jpg', 'file-17-details.txt', 'file-17.jpg', 'french-flag-small.jpg', 'indonesian-flag-extra-small.jpg']
+file list matched, comparing...
+difference fond in file-14-details.txt, please debug using cmp and hexdump...
+difference fond in file-16-details.txt, please debug using cmp and hexdump...
+difference fond in file-17-details.txt, please debug using cmp and hexdump...
+FAILED!
+============ test 1 ============
+Files identified: []
+file list matched, comparing...
+PASSED!
+============ test 3 ============
+Files identified: ['bank-front.JPG', 'file-17-details.txt', 'file-17.jpg', 'file-25-details.txt', 'file-25.jpg', 'landscape_tree.jpg']
+file list matched, comparing...
+PASSED!
+============ test 4 ============
+Files identified: ['bank-front.jpg', 'file-79-details.txt', 'file-79.jpg']
+file list matched, comparing...
+PASSED!
+============ test 5 ============
+Files identified: ['file-100-details.txt', 'file-36-details.txt', 'file-36.jpg', 'file-56-details.txt', 'file-56.jpg', 'hacked-surrounding-area-security-cameras-0.JPG']
+Directory content different from expected...
+Files expected: ['bank-front.JPG', 'file-100-details.txt', 'file-100.JPG', 'file-1000-details.txt', 'file-1000.JPG', 'file-500-details.txt', 'file-500.JPG', 'hacked-surrounding-area-security-cameras-0.JPG', 'hacked-surrounding-area-security-cameras-1.JPG']
+FAILED!
+============ test 6 ============
+Files identified: ['architecture_big_ben.jpg', 'file-15-details.txt', 'file-15.jpg', 'file-200-details.txt', 'file-200.jpg', 'file-2000-details.txt', 'file-208-details.txt', 'file-208.jpg', 'file-210-details.txt', 'file-210.jpg', 'hacked-surrounding-area-security-cameras-0.JPG', 'hacked-surrounding-area-security-cameras-1.JPG', 'hacked-surrounding-area-security-cameras-2.JPG']
+Directory content different from expected...
+Files expected: ['file-200-details.txt', 'file-200.JPG', 'file-2000-details.txt', 'file-2000.JPG', 'file-210-details.txt', 'file-210.JPG', 'hacked-surrounding-area-security-cameras-0.JPG', 'hacked-surrounding-area-security-cameras-1.JPG', 'hacked-surrounding-area-security-cameras-2.JPG']
+FAILED!
+============ test 7 ============
+Files identified: ['file-16-details.txt', 'file-16.jpg', 'file-17-details.txt', 'file-17.jpg', 'file-18-details.txt', 'file-18.jpg', 'hacked-surrounding-area-security-cameras-1.JPG', 'hacked-surrounding-area-security-cameras-2.JPG', 'hacked-surrounding-area-security-cameras-3.JPG']
+file list matched, comparing...
+PASSED!

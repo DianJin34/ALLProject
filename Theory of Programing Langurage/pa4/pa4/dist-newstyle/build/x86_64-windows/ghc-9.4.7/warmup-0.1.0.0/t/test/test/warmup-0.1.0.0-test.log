@@ -1,0 +1,120 @@
+Test suite test: RUNNING...
+Tests
+Expected result: 10sample: sumList 1
+  Unit 1
+Actual result: 10sample: sumList 1
+    sample: sumList 1:             Expected result: 7sample: sumList 2
+OKActual result: 7sample: sumList 2
+
+    sample: sumList 2:             OK
+Expected result: 36sample: sumList 3
+    sample: sumList 3:             Actual result: 36sample: sumList 3
+OK
+Expected result: [3,1,2,4]sample: digitsOfInt 1
+    sample: digitsOfInt 1:         Actual result: [3,1,2,4]sample: digitsOfInt 1
+OKExpected result: [3,5,2,6,6,3]sample: digitsOfInt 2
+
+Actual result: [3,5,2,6,6,3]sample: digitsOfInt 2
+    sample: digitsOfInt 2:         Expected result: [3,1,2,4,3]sample: digits 1
+OK
+Actual result: [3,1,2,4,3]sample: digits 1
+    sample: digits 1:              Expected result: [2,3,4,2,2]sample: digits 2
+OK
+Actual result: [2,3,4,2,2]sample: digits 2
+    sample: digits 2:              OK
+Expected result: 2sample: additivePersistence 1
+    sample: additivePersistence 1: Actual result: 2sample: additivePersistence 1
+OK
+Expected result: 3sample: digitalRoot
+    sample: digitalRoot:           Actual result: 3sample: digitalRoot
+OK
+Expected result: [4,3,2,1]sample: reverse 1
+    sample: reverse 1:             Actual result: [4,3,2,1]sample: reverse 1
+OK
+Expected result: ["d","c","b","a"]sample: rev 2
+    sample: rev 2:                 Actual result: ["d","c","b","a"]sample: rev 2
+Expected result: Truesample: palindrome 1
+OKActual result: Truesample: palindrome 1
+
+    sample: palindrome 1:          Expected result: Falsesample: palindrome 2
+OK
+Actual result: Falsesample: palindrome 2
+    sample: palindrome 2:          Expected result: 0sqSum 1
+OK
+Actual result: 0sqSum 1
+  Unit 2
+Expected result: 30sqSum 2
+    sqSum 1:                       Actual result: 30sqSum 2
+OK
+Expected result: 30sqSum 3
+    sqSum 2:                       Actual result: 30sqSum 3
+OK
+    sqSum 3:                       Expected result: 3pipe 1
+OKActual result: 3pipe 1
+
+    pipe 1:                        OK
+Expected result: 12pipe 2
+    pipe 2:                        Actual result: 12pipe 2
+OKExpected result: 9pipe 3
+
+Actual result: 9pipe 3
+    pipe 3:                        Expected result: "a"sepConcat 1
+OK
+Actual result: "a"sepConcat 1
+    sepConcat 1:                   Expected result: ""sepConcat 2
+OK
+Actual result: ""sepConcat 2
+    sepConcat 2:                   OK
+Expected result: "abcde"sepConcat 3
+    sepConcat 3:                   Actual result: "abcde"sepConcat 3
+Expected result: "hello"sepConcat 4
+OKActual result: "hello"sepConcat 4
+
+Expected result: "[1, 2, 3, 4, 5, 6]"stringOfList 1
+    sepConcat 4:                   Actual result: "[1, 2, 3, 4, 5, 6]"stringOfList 1
+OK
+    stringOfList 1:                Expected result: "[foo]"stringOfList 2
+OKActual result: "[foo]"stringOfList 2
+
+    stringOfList 2:                Expected result: "[[1, 2, 3], [4, 5], [6], []]"stringOfList 3
+OK
+Actual result: "[[1, 2, 3], [4, 5], [6], []]"stringOfList 3
+    stringOfList 3:                Expected result: [3,3,3,3,3]clone 1
+OKActual result: [3,3,3,3,3]clone 1
+
+    clone 1:                       Expected result: ["foo","foo"]clone 2
+OK
+Actual result: ["foo","foo"]clone 2
+    clone 2:                       OK
+Expected result: ([0,0,9,9],[1,0,0,2])padzero 1
+    padzero 1:                     Actual result: ([0,0,9,9],[1,0,0,2])padzero 1
+OKExpected result: ([1,0,0,2],[0,0,9,9])padzero 2
+
+Actual result: ([1,0,0,2],[0,0,9,9])padzero 2
+    padzero 2:                     OK
+Expected result: [1,0,0,2]removeZero 1
+    removeZero 1:                  Actual result: [1,0,0,2]removeZero 1
+OKExpected result: [9,9]removeZero 2
+
+Actual result: [9,9]removeZero 2
+    removeZero 2:                  OK
+Expected result: [1,1,0,1]bigAdd 1
+    bigAdd 1:                      Actual result: [1,1,0,1]bigAdd 1
+OK
+Expected result: [1,0,9,9,8]bigAdd 2
+    bigAdd 2:                      Actual result: [1,0,9,9,8]bigAdd 2
+OK
+Expected result: [8,9,9,9,1]mulByDigit 1
+    mulByDigit 1:                  Actual result: [8,9,9,9,1]mulByDigit 1
+OKExpected result: [9,9,9,8,0,0,0,1]bigMul 1
+
+Actual result: [9,9,9,8,0,0,0,1]bigMul 1
+    bigMul 1:                      Expected result: [9,9,9,9,8,0,0,0,0,1]bigMul 2
+OK
+Actual result: [9,9,9,9,8,0,0,0,0,1]bigMul 2
+    bigMul 2:                      OK
+
+All 37 tests passed (0.01s)
+OVERALL SCORE = 37 / 37
+Test suite test: PASS
+Test suite logged to: C:\CS 538\pa4\pa4\dist-newstyle\build\x86_64-windows\ghc-9.4.7\warmup-0.1.0.0\t\test\test\warmup-0.1.0.0-test.log

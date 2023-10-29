@@ -1,0 +1,15 @@
+Test suite test: RUNNING...
+Tests
+  Unit 1
+    sample: interp literal: OK
+    sample: simplify zero:  OK
+    sample: step:           OK
+    sample: run:            OK
+    sample: compile:        OK
+    sample: peephole:       OK
+    sample: interp expr:    OK
+
+All 7 tests passed (0.00s)
+OVERALL SCORE = 7 / 7
+Test suite test: PASS
+Test suite logged to: C:\CS 538\pa6\dist-newstyle\build\x86_64-windows\ghc-9.8.1\calculator-0.1.0.0\t\test\test\calculator-0.1.0.0-test.log

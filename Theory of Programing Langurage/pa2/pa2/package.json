@@ -1,0 +1,10 @@
+{
+  "name": "pa2",
+  "version": "0.0.1",
+  "description": "CS538 Programming Assignment #2",
+  "author": "Kaiser Pister",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "immutable": "^4.2.2"
+  }
+}

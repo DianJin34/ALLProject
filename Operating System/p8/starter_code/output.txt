@@ -1,0 +1,73 @@
+========= test 1 =========
+put get: 1234
+put get: 1234
+========= test 2 =========
+sending seq: 1
+recieved length: -1
+recieved op_code: 0
+sending seq: 1
+Server is busy, trying to connect...
+recieved length: 20
+recieved op_code: 5
+sending seq: 1
+Server is busy, trying to connect...
+recieved length: 20
+recieved op_code: 5
+sending seq: 1
+Server is busy, trying to connect...
+recieved length: 20
+recieved op_code: 5
+sending seq: 1
+Server is busy, trying to connect...
+recieved length: 20
+recieved op_code: 5
+sending seq: 1
+recieved op_code: 4
+Server is busy, trying to connect...
+recieved op_code: 5
+Put 10
+sending seq: 1
+recieved length: -1
+recieved op_code: 0
+sending seq: 1
+Server is busy, trying to connect...
+recieved length: 20
+recieved op_code: 5
+sending seq: 1
+Server is busy, trying to connect...
+recieved length: 20
+recieved op_code: 5
+sending seq: 1
+Server is busy, trying to connect...
+recieved length: 20
+recieved op_code: 5
+sending seq: 1
+Server is busy, trying to connect...
+recieved length: 20
+recieved op_code: 5
+sending seq: 1
+sending seq: 2
+Found value: 10
+========= test 3 =========
+get result: 1234
+========= test 4 =========
+client id 0
+client id 4
+client id 5
+client id 7
+client id 2
+client id 3
+client id 8
+client id 6
+client id 1
+client id 9
+put get value: 1234
+put get value: 1234
+put get value: 1234
+put get value: 1234
+put get value: 1234
+put get value: 1234
+put get value: 1234
+put get value: 1234
+put get value: 1234
+put get value: 1234
